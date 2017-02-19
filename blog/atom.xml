@@ -11,7 +11,7 @@ layout: feed
 	<id>http://vicbab.github.io/blog</id>
 	<author>
 		<name>Victor B</name>
-		<email>victorbabin@live.ca</email>
+		<email>vicbab@yandex.com</email>
 	</author>
 
 	{% for post in site.posts %}
