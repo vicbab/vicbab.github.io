@@ -1,0 +1,25 @@
+---
+layout: default
+title: Projects
+---
+<div class="blurb">
+	<h1>My projects</h1>
+	<div id="my-github-projects">
+		<div data-repo="vicbab/cinematique" class="github-box-wrap"></div>
+		<div data-repo="vicbab/space-killers" class="github-box-wrap"></div>
+		<div data-repo="vicbab/PrjSecurity" class="github-box-wrap"></div>
+	</div>
+</div><!-- /.blurb -->
+
+
+
+<script src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.min.js" type="text/javascript"></script>
+<script src="/scripts/jquery.github.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+    $(function() {
+        $("#my-github-projects").loadRepositories("vicbab");
+    });
+</script>
+<script>
+	$('[data-repo]').github();
+</script>
