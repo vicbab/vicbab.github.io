@@ -6,7 +6,7 @@ permalink: /blog/:year/:month/:day/:title
 title:              Victor Babin
 description:        "Victor Babin's personal website."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "vicbab.me" # the base hostname & protocol for your site
+url: "" # the base hostname & protocol for your site
 
 defaults:
 - scope:
