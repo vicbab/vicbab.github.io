@@ -38,13 +38,13 @@ disqus_shortname:   default
 # Social
 analytics-id:       "default"
 twitter:            default
-facebook:           default
-instagram:          default
-github:             default
+facebook:           t0rbv
+instagram:          unusernamelongcommeca
+github:             vicbab
 
 # personal
 location:           Montreal, QC
-email:              info@default.com
+email:              victor@vicbab.me
 
 # Gems
 gems:
